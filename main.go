@@ -9,4 +9,10 @@ func main() {
 	// print
 	hand.print()
 	remainingCards.print()
+
+	// save cards to file
+	cards.saveToFile("my_cards.csv")
+
+	// shuffle
+	remainingCards.shuffle()
 }
